@@ -4,22 +4,25 @@ This project demonstrates an end-to-end ELT (Extract, Load, Transform) data pipe
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
+```
 nyc_licenses_pipeline/
-├── data/ # Raw and processed data
-│ └── raw/
-│ └── issued_licenses.csv
-├── schema/ # Data dictionary and SQL schemas
-│ └── raw_schema.sql
-├── docs/ # Project documentation
-│ └── dataset_overview.md
-├── dbt/ # dbt project for transformations
-├── dags/ # (Optional) Airflow DAGs
-├── notebooks/ # Jupyter notebooks for exploration
-├── requirements.txt # Python dependencies
-├── README.md # This file
-└── .env # Environment config for local dev
+├── data/                        # Raw and processed data
+│   ├── raw/
+│   │   └── issued_licenses.csv
+│   └── schema/
+│       └── raw_schema.sql       # DDL or table structure
+├── docs/                        # Project documentation
+│   └── dataset_overview.md
+├── dbt/                         # dbt project for transformations
+├── dags/                        # (Optional) Airflow DAGs
+├── notebooks/                  # Jupyter notebooks for exploration
+├── requirements.txt            # Python dependencies
+├── README.md                   # This file
+└── .env                        # Environment config for local dev
+```
+
 
 
 ---
