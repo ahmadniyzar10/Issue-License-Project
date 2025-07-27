@@ -67,23 +67,7 @@ The dataset contains structured records of all business licenses issued by NYC�
 
 ---
 
-## 🛠️ Step 1 – Data Acquisition
-
-- ✅ Download raw data from NYC Open Data as CSV
-- ✅ Inspect and validate schema
-- ✅ Store data in `/data/raw/issued_licenses.csv`
-- ✅ Document schema in `/schema/raw_schema.sql`
-
-Next up: we’ll upload the raw file to an S3 bucket and stage it in Snowflake.
-
----
-
-## 📌 Next Steps (Step 2 Preview)
-
-- [ ] Create AWS S3 bucket & upload raw CSV
-- [ ] Create Snowflake stage & external table
-- [ ] Load raw data into Snowflake landing table
-- [ ] Document pipeline with SQL & diagrams
+## Data Model
 
 ---
 
